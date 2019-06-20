@@ -17,7 +17,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark violeta">
       <div class="container">
-          <a class="navbar-brand" href="#">E</a>
+          <a class="navbar-brand font-weight-bold" href="#">E</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,7 +40,7 @@
       </div>
     </nav>
     <header class="hero text-light text-center py-5">
-        <div class="container py-5">
+        <div class="container pt-5 encabezado">
           <h1 class="display-4 my-5 border-bottom border-white">YO SOY</h1>
           <h1 class="display-4 font-weight-bold my-5">EUGENIA</h1>
         </div>
@@ -59,21 +59,25 @@
       </section>
 
       <section>
-          <h1 class="text-center">MI EXPERIENCIA</h1>
-          <div class="container my-5">
-            <div class="row text-center">
+          <h1 class="text-center border-bottom border-dark m-5">MI EXPERIENCIA</h1>
+          <div class="container-fluid">
+            <div class="row">
                 <div class="col-md-6 text-center my-5 iconos">
                     <i class="fas fa-university fa-7x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Univerisad Nacional de Cordoba"></i>
-                </div>
+                    <p class="font-weight-bold text-dark">Diseñadora Industrial</p>
+                    <p>2008</p>
+                  </div>
                 <div class="col-md-6 text-center my-5 iconos">
                         <i class="fas fa-graduation-cap fa-7x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instituto Carlos Pellegrini"></i>
+                        <p class="font-weight-bold text-dark">Diseñadora UX/UI</p>
+                        <p>2018</p>
                 </div>
             </div>
             </div>
       </section>
 
-      <section class="container-fluid my-5 p-5 violeta">
-  <h1 class="display-3 text-center font-weight-bold my-4 text-white">Mis ultimos trabajos</h1>
+      <section class="container-fluid my-5 py-5 violeta">
+  <h1 class="display-3 text-center font-weight-bold my-4 py-5 text-white">Mis ultimos trabajos</h1>
 
 <div class="card-deck">
     <div class="card">
@@ -89,7 +93,7 @@
       <div class="card-body">
         <h5 class="card-title">Iguana Page</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#papas">Ver mas</a>
+        <a href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#papas">Ver mas</a>
       </div>
     </div>
     <div class="card">
@@ -97,7 +101,7 @@
       <div class="card-body">
         <h5 class="card-title">Suricata</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#salmones">Ver mas</a>
+        <a href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#salmones">Ver mas</a>
       </div>
     </div>
 </div>
@@ -105,9 +109,9 @@
     <div class="card">
       <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Cuppon/h5>
+        <h5 class="card-title">Cuppon</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#asado">Ver mas</a>
+        <a href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#asado">Ver mas</a>
       </div>
     </div>
     <div class="card">
@@ -115,7 +119,7 @@
       <div class="card-body">
         <h5 class="card-title">Ricomida</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#papas">Ver mas</a>
+        <a href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#papas">Ver mas</a>
       </div>
     </div>
     <div class="card">
@@ -123,7 +127,7 @@
       <div class="card-body">
         <h5 class="card-title">Dmark</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#salmones">Ver mas</a>
+        <a href="#" class="btn btn-outline-dark" data-toggle="modal" data-target="#salmones">Ver mas</a>
       </div>
     </div>
 </div>
@@ -150,16 +154,32 @@
     </div>
   </div>
 </div>
-<section class="container-fluid my-5">
-  <h1 class="text-center my-5">CONTACTO</h1>
+<section class="container-fluid">
+  <h1 class="text-center border-bottom border-dark">CONTACTO</h1>
 <div class="typeform-widget" data-url="https://eugenia373720.typeform.com/to/mI59Wi" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=mI59Wi&utm_source=typeform.com-14131575-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
   </div>
 </section>
 
 
-    <footer class="font-weight-bold text-center violeta p-3">
-      <h4>EUGE</h4>
+    <footer class="container-fluid violeta my-5 py-5 colorletrafooter">
+      <div class="row">
+        <div class="col-md-6 font-weight-bold text-center">
+            <h1>EUGENIA</h1>
+        </div>
+     <div class="col-md-1 col-2">
+      <i class="fab fa-github-square fa-3x"></i>
+    </div>
+    <div class="col-md-1 col-2">
+      <i class="fab fa-linkedin fa-3x"></i>
+   </div>
+   <div class="col-md-1 col-2">
+     <i class="fab fa-twitter-square fa-3x"></i>
+  </div>
+  <div class="col-md-1 col-2">
+    <i class="fab fa-facebook-square fa-3x"></i>
+ </div>
+      </div>
     </footer>
 
     <!--jQuery 3.3.1-->
